@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f9fa;
+        }
+        .header {
+            background: #007bff;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            background: white;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .search-box {
+            text-align: center;
+            padding: 20px;
+            background: #007bff;
+            color: white;
+        }
+        .search-box input {
+            padding: 10px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+        }
+        .search-box button {
+            padding: 10px;
+            background: white;
+            color: #007bff;
+            border: none;
+            border-radius: 5px;
+        }
+        .category, .recent-jobs {
+            text-align: center;
+            padding: 20px;
+        }
+        .category div, .recent-jobs div {
+            display: inline-block;
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background: white;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">JOB PORTAL</div>
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">Jobseekers</a>
+        <a href="#">Employers</a>
+        <a href="#">Admin</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+    </div>
+    <div class="search-box">
+        <h2>Search Online Job !!!</h2>
+        <input type="text" placeholder="Enter Job Title"> 
+        <input type="text" placeholder="Enter Company"> 
+        <button>Search</button>
+    </div>
+    <div class="category">
+        <h2>Popular Jobs Categories</h2>
+        <div>
+            <img src="job-icon.png" alt="Jobs">
+            <p>Digital Marketing</p>
+            <p>1</p>
+        </div>
+        <div>
+            <img src="job-icon.png" alt="Jobs">
+            <p>IT</p>
+            <p>1</p>
+        </div>
+    </div>
+    <div class="recent-jobs">
+        <h2>Recent Jobs</h2>
+        <div>
+            <img src="amazon-logo.png" alt="Amazon">
+            <p><strong>HR</strong></p>
+            <p>Amazon.com | Bengaluru, Karnataka | 2025-02-17 | Full Time</p>
+            <p>₹100000 - ₹200000</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Better Results with Standardized Hiring Process</p>
+        <p>Get Register Today</p>
+        <p>Job Portal &copy; 2025</p>
+    </div>
+</body>
+</html>
